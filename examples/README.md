@@ -1,5 +1,7 @@
 # Examples
 
-Place runnable Rust examples here as `*.rs` files. Examples should demonstrate
-supported public APIs; this scaffold currently has no configuration API to
-showcase.
+Run the built-in CBR example with `cargo run --example round_trip`.
+
+The custom codec example demonstrates `CustomConfigurationFormat` and
+`FileFormat::Other`; run it with `cargo run --example custom_format --features
+custom_fmt`.

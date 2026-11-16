@@ -1,10 +1,9 @@
 # Documentation
 
-This directory is for design notes and user documentation that do not belong in
-crate-level API documentation.
+Guides for using and extending `ciber_config`:
 
-## Current status
+- [Feature flags](features.md): enable built-in and custom formats.
+- [API and format selection](api.md): use `FileFormat`, `encode`, and `decode`.
+- [Custom formats](custom-formats.md): implement the object-safe codec interface.
 
-The crate is an initial scaffold. Configuration sources, formats, and loading
-APIs have not been selected or implemented. Record proposals here after they
-have been discussed and agreed upon.
+The crate-level API documentation includes the project [README](../README.md).
