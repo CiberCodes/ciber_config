@@ -1,0 +1,34 @@
+[package]
+name = "ciber_config"
+version = "0.1.0"
+edition = "2024"
+authors = ["CiberCodes <tuliosouza0803@gmail.com>"]
+description = "A Rust library for loading and managing application configuration"
+repository = "https://github.com/CiberCodes/ciber_config"
+documentation = "https://docs.rs/ciber_config"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["config", "configuration", "settings"]
+categories = ["config", "development-tools"]
+
+[dependencies]
+
+
+[features]
+default = []
+full = []
+
+[lints.rust]
+unsafe_code = "warn"
+missing_docs = "warn"
+missing_debug_implementations = "warn"
+
+[lints.clippy]
+pedantic = "warn"
+nursery = "warn"
+unwrap_used = "warn"
+expect_used = "warn"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
